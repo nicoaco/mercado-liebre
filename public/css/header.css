@@ -1,0 +1,132 @@
+  
+    .main-header {
+       background-color: #EAC926;
+       padding: 20PX;
+   }
+   
+   .hamburguer-button {
+       background-color: #1259c3;
+       color: #ffffff;
+       display: block;
+       max-width: 50px;
+       padding: 15px 0;
+       border-radius: 8px;
+       text-align: center;
+       font-size: 18px;
+       margin: auto;
+   }
+   
+   .logo {
+       width:100%;
+   }
+   #container-logo{
+       width: 50%;
+   }
+   .search-bar{
+       width: 50%;
+       display: flex;
+       align-items: center;
+       padding: 10px;
+       font-size: 18px;
+    }
+
+    #search-text{
+        width:80%;
+        border: solid 1px snow;
+        border-radius: 5%;
+
+    }
+    #lupa-search{
+        width:15%;
+        border: solid 1px snow;
+        border-radius: 5%;
+        background-color: snow;
+    }
+
+   .main-header-top-bar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   }
+
+   .copy-header {
+       font-weight: 400;
+       text-align: center;
+   }
+   
+   .main-navbar {
+       display: none;
+   }
+   
+   
+   .main-navbar ul {
+       list-style: none;
+       margin:0;
+       padding:0;
+       }
+   
+   .main-navbar a {
+       text-decoration: none;
+       color: #222222;
+       display: inline-block;
+       padding: 5x 0;
+       font-size: 17px;
+       }
+   
+     
+   @media (min-width: 491px) {
+       .main-header-top-bar {
+           display: flex;
+           justify-content: space-between;
+           flex-wrap: nowrap;
+       }
+       .copy-header {
+           max-width: 350px;
+           text-align: right;
+       }
+       .hamburguer-button {
+           display:none;
+       }
+       .main-navbar{
+           display: flex;
+           justify-content: space-between;
+       }
+       .main-navbar ul {
+           display:flex;
+       }
+       .main-navbar li {
+           margin:0 5px;
+       }
+   }
+   
+   @media (min-width: 769px) {
+       .logo{
+           width: 250px;
+       }
+       .main-header-top-bar{
+           align-items: center;
+       }
+       .main-header-top-bar, .main-navbar {
+           max-width:1200px;
+           margin:auto;
+       }
+       .main-navbar {
+           margin-top:40px;
+       }
+       .main-navbar li {
+           margin:0 15px;
+       }
+       .main-navbar a {
+           font-size: 19px ;
+       }
+       .copy-header {
+           margin:0;
+           max-width: none;
+           font-size: 22px;
+           font-weight: 400;
+       }
+   
+   
+   }
+   
+   

@@ -1,0 +1,63 @@
+.create-user {
+  padding: 15px;  
+  max-width: 700px;
+  margin:auto;
+}
+.control-form {
+    margin: 5px;
+    display: block;
+}
+
+.control-form p {
+    font-size: 14px;
+}
+.control{
+    width: 100%;
+    padding: 10px;
+}
+
+#login-box{
+margin-top: 30px;
+}
+
+
+.label-oculto {
+    display: none;
+}
+.label-visto{
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}
+.control-form #interes{
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+}
+
+.button-login {
+    margin-top:30px;
+    background-color: #1259c3;
+    color: white;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.button-login:hover {
+    background-color:  #39b54a;
+}
+.button-form {
+    background-color: #1259c3;
+    color: white;
+    font-size: 16px;
+    width:80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: all 0.5s;
+}
+.button-form:hover {
+    background-color:  #39b54a;
+}

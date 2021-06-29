@@ -1,0 +1,147 @@
+* {
+ box-sizing: border-box;
+ margin:0px;
+ padding:0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    background-color: #ebebeb;
+}
+
+main {
+    width: 90vw;
+    margin:auto;
+    }
+
+#home-banner {
+    width:100vw;
+}
+
+article{
+    padding: 10px 0;
+    background-color: #ebebeb;
+}
+figure{
+    margin:0;
+    border:0;
+}
+img {
+    width: 100%;
+    }
+
+.logo-envio{
+    color:#39b54a;;
+    border: solid 1px #39b54a; ;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 16px;
+    height: 30px;
+    width: 30px;
+    position:absolute;
+    right: 10%;
+    top:-40%;
+    }
+
+.contenedor1 {
+    margin:0;
+    border-top: solid 1px #ebebeb;
+    padding: 0 15px;
+    background-color: white;
+    position: relative;
+}
+
+.descuentos{
+    font-size: 16px;
+    padding: 0 5px;
+    line-height: 24px;
+    color: #39b54a;
+    width:70%;
+}
+
+.precios {
+    font-size: 18px;
+    line-height: 26px;
+    width:30%;
+}
+.precio-descuento {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.article-description{
+    display:none;
+}
+
+
+h2 {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 10px;
+
+}
+
+h3{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+p {
+    font-size: 16px;
+}
+
+
+
+
+@media (min-width: 481px) {
+    .article-setting{
+            max-width: 45%;
+            transition: all 0.5s;
+    }
+    .article-description{
+        display:none;
+    }
+
+    .article-setting:hover{
+        box-shadow: 0 0 10px rgb(100,100,100);
+        transform: scale(1.03);
+    }
+
+    .article-setting:hover .article-description  {
+        display: block;
+    }
+
+  
+    
+    .section-content {
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .descuentos{
+        text-align: center;
+    }
+}
+
+@media (min-width: 769px) {
+   .article-setting {
+       max-width: 22%;
+   }
+.descuentos{
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    }
+
+.precios {
+    font-size: 16px;
+    line-height: 24px;
+}
+}
+
+
