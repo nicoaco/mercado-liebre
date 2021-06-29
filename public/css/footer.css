@@ -31,7 +31,7 @@ footer {
     text-align: center;
     font-size: 2em;
     margin: auto;
-    transition: all 0.5s;
+    transition: all;
 
 }
 .footer-icon:hover{
